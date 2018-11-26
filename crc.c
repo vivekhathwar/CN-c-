@@ -62,7 +62,7 @@ void main()
     cc[j--]=sent[i--];
   cc[16]='\0';
   printf("The remainder is %s, hence\n",cc);
-  for(i=0;i<rs+16;i++)
+  for(i=rs;i<rs+16;i++)
     if(receive[i]!='0'){
       printf("The data is corrupted\n");
       j=-1;
