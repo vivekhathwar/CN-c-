@@ -98,6 +98,7 @@ void main()
 		i=0;
 		while(a[i]!='\0') i++;
 		while(i%16!=0) i++;
+		i++;
 		for(j=0;j<16;j++){
 			a[i++]=su[j]+'0';
 		}
